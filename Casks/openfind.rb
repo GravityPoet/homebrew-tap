@@ -7,7 +7,7 @@ cask "openfind" do
   desc "Deep file search, encrypted clipboard, keep-awake, drive keep-alive, and keyboard lock in one menu-bar app"
   homepage "https://github.com/GravityPoet/OpenFind"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "OpenFind.app"
 
