@@ -4,7 +4,7 @@ cask "openfind" do
 
   url "https://github.com/GravityPoet/OpenFind/releases/download/v#{version}/OpenFind.zip"
   name "OpenFind"
-  desc "Deep file search, encrypted clipboard, keep-awake, drive keep-alive, and keyboard lock in one menu-bar app"
+  desc "File search, encrypted clipboard, and menu-bar productivity tools"
   homepage "https://github.com/GravityPoet/OpenFind"
 
   depends_on macos: :sonoma
